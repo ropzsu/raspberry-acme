@@ -13,4 +13,5 @@ sudo apt-get -y install pkg-config libncursesw5-dev
 sudo apt-get -y install mpv pulseaudio pavucontrol
 
 sudo apt-get -y install libc6-dev-i386 golang
+sudo apt-get install -y pavucontrol pulseaudio
 
