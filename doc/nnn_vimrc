@@ -1,0 +1,10 @@
+
+map o gf
+map a <c-o>
+
+map n <c-f>
+map v <c-b>
+
+map q :q<cr>
+map w :w<cr>
+
