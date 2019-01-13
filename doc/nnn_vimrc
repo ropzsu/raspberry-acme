@@ -8,5 +8,6 @@ map v <c-b>
 map q :q<cr>
 map w :w<cr>
 
+set nu
 set ruler
 set laststatus=2
