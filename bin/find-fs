@@ -1,0 +1,10 @@
+#!/bin/sh
+
+TYPE=go
+
+if [ "$1" ]; then
+ TYPE=$1
+fi
+
+find . -type f -name "*.$TYPE" |sort | cut -b 3- > $TYPE-files.list
+echo $TYPE-files.list
