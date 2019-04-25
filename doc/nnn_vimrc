@@ -1,13 +1,22 @@
+set nu
+set ai
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {}<ESC>i
+inoremap < <><ESC>i
+inoremap " ""<ESC>i
+inoremap ' ''<ESC>i
 
-map o gf
-map a <c-o>
+imap <c-h> <left>
+imap <c-l> <right>
+imap <c-j> <down>
+imap <c-k> <up>
+imap <c-o> <esc>o
+imap <c-i> <esc>
+
+imap <c-e> <esc>$a
+imap <c-a> <esc>0wi
+imap <c-u> <esc>lDa
 
 map n <c-f>
 map v <c-b>
-
-map q :q<cr>
-map w :w<cr>
-
-set nu
-set ruler
-set laststatus=2
