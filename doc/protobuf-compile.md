@@ -35,8 +35,9 @@ $ make
 $ make check
 $ sudo make install
 $ sudo ldconfig # refresh shared library cache.
-If "make check" fails, you can still install, but it is likely that some features of this library will not work correctly on your system. Proceed at your own risk.
 ```
+If "make check" fails, you can still install, but it is likely that some features of this library will not work correctly on your system. Proceed at your own risk.
+
 
 For advanced usage information on configure and make, please refer to the autoconf documentation:
 
