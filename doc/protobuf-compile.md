@@ -30,3 +30,9 @@ $ sudo ldconfig # refresh shared library cache.
 
 ## Refer
  https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
+ 
+ ## ALL
+     $ git clone https://github.com/protocolbuffers/protobuf.git
+    $ cd protobuf
+    $ git submodule update --init --recursive
+    $ ./autogen.sh
