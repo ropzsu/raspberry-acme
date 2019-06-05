@@ -1,7 +1,8 @@
 
 https://github.com/jarun/nnn
-https://github.com/9fans/plan9port
+# sudo apt-get install pkg-config libncursesw5-dev libreadline6-dev
 
+https://github.com/9fans/plan9port
 
  sudo apt-get install pkg-config libncursesw5-dev
  sudo apt-get install mpv
