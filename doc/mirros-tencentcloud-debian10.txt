@@ -1,0 +1,5 @@
+# debian 10: buster apt-source-list
+
+deb http://mirrors.tencent.com/debian buster main
+deb http://mirrors.tencent.com/debian buster-updates main
+deb http://mirrors.cloud.tencent.com/debian-security buster/updates main
